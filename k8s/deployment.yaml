@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: greeter
-          image: example.com/rhdevelopers/tekton-tutorial-greeter
+          image: docker.io/zhangchl007/tekton-tutorial-greeter
           resources:
             limits:
               memory: "750Mi"
